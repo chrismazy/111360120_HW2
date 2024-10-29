@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 public class p19{
 	public static void main(String[] args) throws IOException{
-		System.out.println("請輸入整數");
+		System.out.println("請問你是男生嗎");
+		System.out.println("請輸入Y或N");
 		BufferedReader br = 
 				new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine();
